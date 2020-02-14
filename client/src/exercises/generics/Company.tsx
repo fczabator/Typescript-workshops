@@ -35,7 +35,7 @@ export const Company = () => {
   return (
     <div>
       <Description title="Description" content={content} />
-      <Description title="Hint" content={hint} />
+      <Description title="Hint" content={hint} hidden />
       <div style={{marginBottom: '20px'}}>
         <Button label="Get company info" onClick={onCount} />
         {data?.result && !error && (

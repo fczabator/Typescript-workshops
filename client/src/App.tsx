@@ -1,6 +1,6 @@
 import React from 'react';
 import { Compliance } from "grommet-icons";
-import { Box, Button, Collapsible, Heading, Grommet, Anchor } from "grommet";
+import { Box, Button, Collapsible, Heading, Grommet } from "grommet";
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import { grommet } from "grommet/themes";
 import {Cards, Classes, Tree, Company, ShowcaseEvents as Events, ShowcaseParams as Params} from './exercises';
@@ -40,12 +40,12 @@ export const App = () => {
                 pad="small"
                 elevation="small"
               >
-                <Link to="/cards"><Anchor label="Cards" /></Link>
-                <Link to="/tree"><Anchor label="Tree" /></Link>
-                <Link to="/1"><Anchor label="Classes" /></Link>
-                <Link to="/generics"><Anchor label="Generics" /></Link>
-                <Link to="/events"><Anchor label="Events" /></Link>
-                <Link to="/params"><Anchor label="Params" /></Link>
+                <Link to="/cards">Cards</Link>
+                <Link to="/tree">Tree</Link>
+                <Link to="/1">Classes</Link>
+                <Link to="/generics">Generics</Link>
+                <Link to="/events">Events</Link>
+                <Link to="/params">Params</Link>
               </Box>
             </Collapsible>
             <Box

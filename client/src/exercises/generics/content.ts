@@ -1,6 +1,6 @@
 export const content = `
   ## Generics
-  \`src/exercises/generics\` contains class definition of Developer and Manager. By clicking the 'get company info' button user should see different information about the company.
+  \`server/src/exercises/generics\` contains class definition of Developer and Manager. By clicking the 'get company info' button user should see different information about the company.
 
   1. Write correct typings for Developer and Manager class
   2. Write correct typings for \`printAll\` function. Don't create a new parent class, instead use an interface.

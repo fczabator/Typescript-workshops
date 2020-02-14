@@ -9,7 +9,7 @@ export const Card = ({title, message}) => {
       <section>
         <h1 onClick={() => setExpanded(!isExpanded)}>{title}</h1>
         {isExpanded === null && (
-          <span>Click on me to expand!</span>
+          <span>{'<- click on me to expand!'}</span>
         )}
       </section>
       {isExpanded && (

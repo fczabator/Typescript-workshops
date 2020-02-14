@@ -11,3 +11,15 @@ section > * {
 code {
   font-size: 15px;
 }
+
+p {
+  max-width: 800px !important;
+}
+
+a {
+  color: #7D4CDB;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0.2rem;
+}

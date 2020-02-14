@@ -8,7 +8,7 @@ export const Cards = () => {
   return (
     <Box pad="small">
       <Description title="Description" content={content} />
-      <Description title="Hint" content={hint} />
+      <Description title="Hint" content={hint} hidden />
       <Card title="This is title" message="This is message" />
     </Box>
   );

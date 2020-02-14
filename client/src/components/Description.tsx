@@ -4,10 +4,11 @@ import { Markdown, Box, Collapsible, Button } from 'grommet';
 interface Props {
   content: string;
   title: string;
+  hidden?: boolean;
 };
 
-export const Description: React.FC<Props> = ({content, title}) => {
-  const [isOpen, setOpen] = useState(true);
+export const Description: React.FC<Props> = ({content, title, hidden}) => {
+  const [isOpen, setOpen] = useState(!hidden);
   return (
     <Box style={{maxWidth: '900px'}}>
       <Box direction="row" align="center">

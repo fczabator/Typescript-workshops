@@ -24,7 +24,7 @@ export const Tree = () => {
   return (
     <div>
       <Description title="Description" content={content} />
-      <Description title="Hint" content={hint} />
+      <Description title="Hint" content={hint} hidden />
       <section>
         <Button label="Generate and count" onClick={onCount} />
         {data?.result && !error && (

@@ -25,7 +25,7 @@ export const Classes = () => {
   return (
     <div>
       <Description title="Description" content={content} />
-      <Description title="Hint" content={hint} />
+      <Description title="Hint" content={hint} hidden />
       <section>
         <Form onSubmit={onSortString}>
           <FormField label="String to sort">
@@ -39,7 +39,7 @@ export const Classes = () => {
       </section>
       <section>
         <Form onSubmit={onSortNumbers}>
-          <FormField label="numbers to sort (only integers separated by whitespace">
+          <FormField label="numbers to sort (only integers separated by whitespace)">
             <TextInput onChange={e => setNumbersToSort(e.target.value)} name="string" />
           </FormField>
           <Button type="submit" label="sort" />
