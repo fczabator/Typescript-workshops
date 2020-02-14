@@ -1,0 +1,13 @@
+section { 
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+section > * {
+  margin: 0 20px;
+}
+
+code {
+  font-size: 15px;
+}
